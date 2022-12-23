@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.movieCard{
+    height: 450px;
+    margin-bottom: 0;
+    overflow: hidden;
+    position: relative;
+}
+.movieCard img{
+    height: 150px;
+    object-fit:cover;
+    margin-bottom: 0;
+    border-radius: 5%;
+    box-shadow: #343a40;
+}
+.movieCard figcaption{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+}
+.row{
+    object-fit: cover;
+
+}
+.row h2{
+    width: 100%;
+    font-weight: 700;
+    
+}
+.data-info{
+    padding-bottom: 40px;   
+}
+.data{
+    width: 100%;
+    color: grey;
+    padding-left: 30px;
+    font-weight: 400; 
+}
+.card{
+    margin-bottom: 20px;
+}
